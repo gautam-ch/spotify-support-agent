@@ -1,0 +1,29 @@
+# Spotify AI Support Agent — Dependencies
+# Using Google Gemini API (NEW official SDK: google-genai)
+# All packages are pure Python wheels — no C++ compiler needed on Windows.
+
+# Core data engineering
+pandas
+numpy
+
+# ML / Clustering (CPU-only — no GPU needed)
+scikit-learn
+
+# Google Gemini API — NEW official SDK (replaces deprecated google-generativeai)
+# Docs: https://googleapis.github.io/python-genai/
+google-genai
+
+# Utilities
+python-dotenv
+tqdm
+
+# Notebook
+jupyter
+ipykernel
+
+# Visualisation
+matplotlib
+seaborn
+sentence-transformers
+gradio
+spaces

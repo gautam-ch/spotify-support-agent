@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.venv/
+data/raw/
+reports/eval_cache.json
+reports/agent_cache.json
+notebooks/
